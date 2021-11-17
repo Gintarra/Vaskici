@@ -1,0 +1,119 @@
+body {
+    transform: scale(0.8);
+    transform-origin: top;
+
+}
+
+.box1 {
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+    width: 150px;
+    height: 220px;
+    background-position: -30px;
+}
+
+.box2 {
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+    width: 150px;
+    height: 220px;
+    background-position: 190px;
+}
+
+.box3 {
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+    width: 150px;
+    height: 220px;
+    background-position: 340px;
+}
+
+.computer:hover {
+    transform: scale(1.2);
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.player:hover {
+    transform: scale(1.2);
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+button {
+    margin: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #3b6464;
+    font-family: Georgia, serif;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #539494;
+}
+
+
+.selected {
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+#history {
+    width: 438px;
+    border: black solid 2px;
+    height: 65px;
+}
+
+.border {
+    height: 65px;
+    border-right: 3px solid black;
+}
+
+/*Flex classes*/
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-self: center;
+}
+.row {
+    flex-direction: row;
+}
+
+
+/*Others*/
+.text-center {
+    text-align: center;
+}
+
+.rock {
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+    width: 35px;
+    height: 65px;
+    background-position: -8px;
+    background-size: cover;
+}
+
+.scissors {
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+    width: 35px;
+    height: 65px;
+    background-position: 82px;
+    background-size: cover;
+}
+
+.paper {
+    background-image: url("https://image.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg");
+    width: 35px;
+    height: 65px;
+    background-position: 42px;
+    background-size: cover;
+}
